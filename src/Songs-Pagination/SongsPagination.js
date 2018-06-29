@@ -10,7 +10,7 @@ export  default class SongsPagination extends React.Component {
     };
 
     componentDidMount() {
-        fetch('http://localhost:3000/data.json')
+        fetch('http://kronusproductions.com/react-example/data.json')
             .then((response) => response.json())
             .then(responseJson => {
                 this.setState({ data: responseJson });
