@@ -1,7 +1,8 @@
 {
   "name": "react-example",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage":"http://kronusproductions.com/react-example/",
   "dependencies": {
     "create-react-class": "15.6.2",
     "react": "^16.4.1",
