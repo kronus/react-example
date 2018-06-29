@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+table{
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-spacing: 0;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+tr:nth-child(even) {background-color: #f9f9f9;}
+
+table td:first-child{
+  text-align: left !important;
+}
+
+table td:nth-child(2){
+  text-align: left !important;
+}
+
+table td:nth-child(3){
+  text-align: justify !important;
+}
+
+table td:nth-child(4){
+  text-align: justify !important;
+}
+
+table td:nth-child(6){
+  background: url("./images/mZip.png") no-repeat;
+  cursor: pointer;
+  max-width: 50px;
+}
+
+table td:nth-child(7){
+  background: url("./images/youtube-icon_48x48.png") no-repeat;
+  cursor: pointer;
+  max-width: 50px;
+}
+
+table td:nth-child(8){
+  background: url("./images/volume.png") no-repeat;
+  cursor: pointer;
+  max-width: 50px;
+}
+
+.mZip{
+  background: url("./images/mZip.png") no-repeat;
+  cursor: pointer;
+}
+
+.mYouTube{
+  background: url("./images/youtube-icon_48x48.png") no-repeat;
+  cursor: pointer;
+}
+
+.mVolume{
+  background: url("./images/volume.png") no-repeat;
+  cursor: pointer;
+}
+
+ul.pagination-status li{
+  display: inline-block;
+  float: left;
+}
